@@ -26,6 +26,18 @@ class App extends Component {
       <div className="App">
         <h1>SCV Yelp</h1>
         <h2>Food in Santa Clarita</h2>
+        
+        <div class="quizIntroduction">
+          <p>
+            Hungry?<br></br>
+            Want to support the grandma next door?<br></br>
+            Let's eat.
+          </p>
+
+          <p>
+            Take this fun and quiz to see which American small business you will be supporting next!
+          </p>
+        </div>
         <SearchBar searchYelp={this.searchYelp}/>
         <BusinessList businesses={this.state.businesses} />
       </div>

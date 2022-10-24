@@ -13,14 +13,38 @@ class SearchBar extends React.Component {
         this.state = {
             term: '',
             location: '',
-            sortBy: 'best_match'
+            sortBy: 'best_match',
+            category1: 'cake',
+            category2: 'tacos',
+            category3: 'ramen',
+            category4: 'burgers'
         };
 
         this.handleTermChange = this.handleTermChange.bind(this);
         this.handleLocationChange = this.handleLocationChange.bind(this);
         this.handleSearch = this.handleSearch.bind(this);
+        this.happy = this.happy.bind(this);
+        this.sad = this.sad.bind(this);
+        this.stressed = this.stressed.bind(this);
+        this.angry = this.angry.bind(this);
     }
 
+    happy(event) {
+        this.props.searchYelp(this.state.category1);
+    }
+
+    sad(event) {
+        this.props.searchYelp(this.state.category2);
+    }
+
+    stressed(event) {
+        this.props.searchYelp(this.state.category3);
+    }
+
+    angry(event) {
+        this.props.searchYelp(this.state.category4);
+    }
+    
     handleSearch(event) {
         this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
         event.preventDefault();
@@ -57,10 +81,26 @@ class SearchBar extends React.Component {
                 
                 <div className="SearchBar-fields">
                     <input placeholder="Search Food" onChange={this.handleTermChange} />
-                    
                 </div>
                 <div className="SearchBar-submit">
                     <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>
+                </div>
+
+                <div class="moodButtons">
+                    <button onClick={this.happy}>happy</button>
+                    <button onClick={this.sad}>sad</button>
+                    <button onClick={this.stressed}>stressed</button>
+                    <button onClick={this.angry}>angry</button>
+                </div>
+
+                <div className="test">
+                    <ul>
+                        <li>this is just a test:</li>
+                        <li>happy = cake</li>
+                        <li>sad = tacos</li>
+                        <li>stressed = ramen</li>
+                        <li>angry = burgers</li>
+                    </ul>
                 </div>
             </div>
         )

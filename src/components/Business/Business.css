@@ -2,8 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 16.66rem;
-  margin: 0 .5rem 2.3rem .5rem;
+  width: 15rem;
+  margin: -5rem 0rem 7.5rem 0rem;
+  background-color: rgb(206, 231, 231);
+  padding: 1.5rem;
+  border-radius: 20px;
 }
 
 .Business .image-container {
@@ -49,4 +52,8 @@
 .Business-reviews .rating {
   font-size: .88rem;
   line-height: 1rem;
+}
+
+.Business a {
+  text-decoration: none;
 }

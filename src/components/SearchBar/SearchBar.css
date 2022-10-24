@@ -70,6 +70,7 @@
     color: #ffffff;
     font-weight: 600;
     transition: background-color .5s;
+    text-decoration: none;
   }
   
   .SearchBar-submit a:hover {
@@ -93,4 +94,30 @@
       margin-right: 0;
       margin-bottom: .86rem;
     }
+  }
+
+  .SearchBar .test li{
+    margin-left: 80%;
+  }
+
+  .SearchBar .moodButtons button {
+    border-radius: 4px;
+    padding: .72rem 1.7rem;
+    background-color: #83bea5;
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color .5s;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+
+  .SearchBar .moodButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
   }

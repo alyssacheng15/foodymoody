@@ -2,7 +2,7 @@ const apiKey = 'L_9VwAYsriimFPwSQ-MZZclFRQ89HBtjNu6-Sd8EYAJScWMboxTcl3Zy6eSPViSU
 
 const Yelp = {
     async searchYelp(term, location, sortBy) {
-        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=santa_clarita&sort_by=review_count`, {
+        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=santa_clarita&sort_by=review_count&limit=50`, {
             headers: {
                 Authorization: `Bearer ${apiKey}`,
             },
@@ -18,10 +18,12 @@ const Yelp = {
                     address: business.location.address1,
                     city: business.location.city,
                     state: business.location.state,
-                    zipCode: business.location.zip_code,
+                    zipCode: business.zip_code,
                     category: business.categories[0].title,
                     rating: business.rating,
-                    reviewCount: business.review_count
+                    reviewCount: business.review_count,
+                    price: business.price,
+                    url: business.url
                 };
             }));
         }

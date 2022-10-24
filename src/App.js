@@ -4,8 +4,6 @@ import SearchBar from './components/SearchBar/SearchBar';
 import BusinessList from './components/BusinessList/BusinessList';
 import Yelp from '../src/util/Yelp';
 
-// test comment
-
 
 class App extends Component {
   constructor (props){
@@ -25,19 +23,29 @@ class App extends Component {
     return (
       <div className="App">
         <h1>SCV Yelp</h1>
-        <h2>Food in Santa Clarita</h2>
         
         <div class="quizIntroduction">
+          <div class="quizIntroductionText">
           <p>
             Hungry?<br></br>
             Want to support the grandma next door?<br></br>
             Let's eat.
           </p>
+          </div>
 
-          <p>
-            Take this fun and quiz to see which American small business you will be supporting next!
-          </p>
+          <div class="quizIntroductionText">
+            <p>
+              Take this fun and quiz to see which American small business you will be supporting next!
+            </p>
+          </div>
         </div>
+
+        <div class="moodBoard">
+          <h3>What mood are you feeling right now?</h3>
+        </div>
+
+        <footer>
+        </footer>
         <SearchBar searchYelp={this.searchYelp}/>
         <BusinessList businesses={this.state.businesses} />
       </div>

@@ -37,17 +37,29 @@ input:focus {
 h1 {
   padding: .66rem 0;
   text-align: center;
-  background-color: #78bebd;
+  background-color: #ABB9CF;
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
   color: #fff;
 }
 
-h2 {
-  padding: .66rem 0;
+/* deleted the food in santa clarita section to match the figma */
+
+/* Quiz Introduction Section with Text */
+.quizIntroduction {
+  font-size: 30px;
   text-align: center;
+
+  padding: 50px;
   background-color: #d1bdda;
-  font-family: Poppins, sans-serif;
-  font-size: 1rem;
-  color: #fff;
 }
+
+.quizIntroductionText {
+  width: 50%;
+  margin: auto;
+  color: white;
+  font-weight: 300;
+  padding: 20px;
+}
+
+/* mood board */

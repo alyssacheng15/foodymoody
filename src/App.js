@@ -4,7 +4,7 @@ import SearchBar from './components/SearchBar/SearchBar';
 import BusinessList from './components/BusinessList/BusinessList';
 import Yelp from '../src/util/Yelp';
 
-
+// test comment
 
 
 class App extends Component {

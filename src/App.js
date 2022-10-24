@@ -24,8 +24,8 @@ class App extends Component {
       <div className="App">
         <h1>SCV Yelp</h1>
         
-        <div class="quizIntroduction">
-          <div class="quizIntroductionText">
+        <div className="quizIntroduction">
+          <div className="quizIntroductionText">
           <p>
             Hungry?<br></br>
             Want to support the grandma next door?<br></br>
@@ -33,14 +33,14 @@ class App extends Component {
           </p>
           </div>
 
-          <div class="quizIntroductionText">
+          <div className="quizIntroductionText">
             <p>
               Take this fun and quiz to see which American small business you will be supporting next!
             </p>
           </div>
         </div>
 
-        <div class="moodBoard">
+        <div className="moodBoard">
           <h3>What mood are you feeling right now?</h3>
         </div>
 

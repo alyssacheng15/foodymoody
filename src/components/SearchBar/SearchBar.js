@@ -82,11 +82,11 @@ class SearchBar extends React.Component {
                 <div className="SearchBar-fields">
                     <input placeholder="Search Food" onChange={this.handleTermChange} />
                 </div>
-                <div className="SearchBar-submit">
+                <div className="button1">
                     <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>
                 </div>
 
-                <div class="moodButtons">
+                <div className="moodButtons">
                     <button onClick={this.happy}>happy</button>
                     <button onClick={this.sad}>sad</button>
                     <button onClick={this.stressed}>stressed</button>

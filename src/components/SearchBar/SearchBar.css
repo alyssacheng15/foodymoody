@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-image: url('./background_search_desktop.png'); */
+    /* background-image: url('./confetti.mp4'); */
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 25rem;
@@ -209,7 +209,7 @@
     margin-left: 80%;
   }
 
-  #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphTired, #paragraphHungover, #paragraphPregnant {
+  #blurbs, #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphTired, #paragraphHungover, #paragraphPregnant {
     display: none;
   }
 

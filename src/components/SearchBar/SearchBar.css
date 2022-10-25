@@ -35,6 +35,10 @@
   margin: auto;
 }
 
+.moodButtons button:hover {
+  cursor: pointer;
+}
+
 .SearchBar {
     display: flex;
     flex-direction: column;

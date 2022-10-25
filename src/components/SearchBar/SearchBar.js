@@ -253,7 +253,7 @@ class SearchBar extends React.Component {
                         <input placeholder="Ramen, Mexican, etc" onChange={this.handleTermChange} />
                     </div>
                     <div className="button1">
-                        <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>
+                        <a href="www.#.com" onClick={this.handleSearch}>SEARCH</a>
                     </div>
                 </div>
             </div>

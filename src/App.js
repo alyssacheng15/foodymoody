@@ -19,6 +19,7 @@ class App extends Component {
       this.setState({ businesses: businesses });
     });
   }
+
   render () {
     return (
       <div className="App">
@@ -38,6 +39,7 @@ class App extends Component {
               Take this fun and quiz to see which American small business you will be supporting next!
             </p>
           </div>
+
         </div>
 
         <SearchBar searchYelp={this.searchYelp}/>

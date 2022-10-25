@@ -40,8 +40,6 @@ class App extends Component {
             </p>
           </div>
 
-          <div id="bg"></div>
-
         </div>
 
         <SearchBar searchYelp={this.searchYelp}/>

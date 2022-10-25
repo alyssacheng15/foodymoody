@@ -223,4 +223,20 @@
   font-size: 15px;
 
   padding: 30px;
+
+  margin: auto; 
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 50%;
+}
+
+/* text */
+h4 {
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  font-size: 18px;
 }

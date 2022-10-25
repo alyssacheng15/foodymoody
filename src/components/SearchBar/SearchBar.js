@@ -39,34 +39,98 @@ class SearchBar extends React.Component {
 
     Happy(event) {
         this.props.searchYelp(this.state.categoryHappy);
+        document.getElementById("paragraphHappy").style.display = "block";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "none";    	
     }
 
     Sad(event) {
         this.props.searchYelp(this.state.categorySad);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "block";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "none";   
     }
 
     Stressed(event) {
         this.props.searchYelp(this.state.categoryStressed);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "block";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "none";
     }
 
     Angry(event) {
         this.props.searchYelp(this.state.categoryAngry);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "block";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "none";
     }
 
     Cold(event) {
         this.props.searchYelp(this.state.categoryCold);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "block";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "none";
     }
 
     Covid(event) {
         this.props.searchYelp(this.state.categoryCovid);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "block";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "none";
     }
 
     Hungover(event) {
         this.props.searchYelp(this.state.categoryHungover);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "block";
+        document.getElementById("paragraphPregnant").style.display = "none";
     }
 
     Pregnant(event) {
         this.props.searchYelp(this.state.categoryPregnant);
+        document.getElementById("paragraphHappy").style.display = "none";
+        document.getElementById("paragraphSad").style.display = "none";
+        document.getElementById("paragraphStressed").style.display = "none";
+        document.getElementById("paragraphAngry").style.display = "none";
+        document.getElementById("paragraphCold").style.display = "none";
+        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphHungover").style.display = "none";
+        document.getElementById("paragraphPregnant").style.display = "block";
     }
     
     handleSearch(event) {
@@ -120,9 +184,46 @@ class SearchBar extends React.Component {
                 </div>
                 
 
+                <div className="Blurbs">
+                    <div id="paragraphHappy">
+                        <p>Because you are feeling happy, we recommend:</p>
+                        <p>* smoothies</p>
+                        <p>* acai bowls</p>
+                        <p>These have healthy sugars that will keep you happy.</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</p>
+                    </div>
+                    <div id="paragraphSad">
+                        <p>Because you are feeling sad, we recommend:</p>
+                        <p>* cakes</p>
+                        <p>* cookies</p>
+                        <p>* other desserts</p>
+                        <p>Treat yourself when feeling down! Science has proven that intake of sugar will boost your serotonin.</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to boost your mood, or, type something in the search bar to discover more food!</p>
+                    </div>
+                    <div id="paragraphStressed">
+                        Stressed description
+                    </div>
+                    <div id="paragraphAngry">
+                        Angry description
+                    </div>
+                    <div id="paragraphCold">
+                        Cold description
+                    </div>
+                    <div id="paragraphCovid">
+                        Covid description
+                    </div>
+                    <div id="paragraphHungover">
+                        Hungover description
+                    </div>
+                    <div id="paragraphPregnant">
+                        Pregnant description
+                    </div>
+                </div>
+
+
                 <div className="SearchBar">
                     <div className="SearchBar-fields">
-                        <input placeholder="Search Food" onChange={this.handleTermChange} />
+                        <input placeholder="Ramen, Mexican, etc" onChange={this.handleTermChange} />
                     </div>
                     <div className="button1">
                         <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>

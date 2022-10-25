@@ -46,7 +46,8 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphCold").style.display = "none";
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
-        document.getElementById("paragraphPregnant").style.display = "none";    	
+        document.getElementById("paragraphPregnant").style.display = "none";
+        document.getElementById("blurbs").style.display = "block";    	
     }
 
     Sad(event) {
@@ -58,7 +59,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphCold").style.display = "none";
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
-        document.getElementById("paragraphPregnant").style.display = "none";   
+        document.getElementById("blurbs").style.display = "block";   
     }
 
     Stressed(event) {
@@ -70,7 +71,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphCold").style.display = "none";
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
-        document.getElementById("paragraphPregnant").style.display = "none";
+        document.getElementById("blurbs").style.display = "block";
     }
 
     Angry(event) {
@@ -82,7 +83,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphCold").style.display = "none";
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
-        document.getElementById("paragraphPregnant").style.display = "none";
+        document.getElementById("blurbs").style.display = "block";
     }
 
     Cold(event) {
@@ -95,6 +96,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
+        document.getElementById("blurbs").style.display = "block";
     }
 
     Tired(event) {
@@ -106,7 +108,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphCold").style.display = "none";
         document.getElementById("paragraphTired").style.display = "block";
         document.getElementById("paragraphHungover").style.display = "none";
-        document.getElementById("paragraphPregnant").style.display = "none";
+        document.getElementById("blurbs").style.display = "block";
     }
 
     Hungover(event) {
@@ -119,6 +121,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "block";
         document.getElementById("paragraphPregnant").style.display = "none";
+        document.getElementById("blurbs").style.display = "block";
     }
 
     Pregnant(event) {
@@ -131,6 +134,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "block";
+        document.getElementById("blurbs").style.display = "block";
     }
     
     handleSearch(event) {
@@ -184,7 +188,7 @@ class SearchBar extends React.Component {
                 </div>
                 
 
-                <div className="Blurbs">
+                <div className="Blurbs" id="blurbs">
                     <div id="paragraphHappy">
                         <h4>Because you are feeling happy, we recommend:</h4>
                         <p>* smoothies</p>

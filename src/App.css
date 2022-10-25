@@ -71,3 +71,15 @@ h1 {
   padding: 20px;
 }
 
+
+/* background */
+.backgroundVideoParent {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px;
+}
+.backgroundVideo {
+  width: 100%;
+}

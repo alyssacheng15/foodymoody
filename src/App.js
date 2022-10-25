@@ -37,7 +37,13 @@ class App extends Component {
             <p>
               Take this fun and quiz to see which American small business you will be supporting next!
             </p>
+
+          <div className="backgroundVideoParent">
+          <video className="backgroundVideo" autoplay muted loop>
+              <source src="confetti.mp4" type="video/mp4"></source>
+            </video>
           </div>
+        </div>
         </div>
 
         <SearchBar searchYelp={this.searchYelp}/>

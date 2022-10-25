@@ -201,22 +201,46 @@ class SearchBar extends React.Component {
                         <p>Scroll down to discover a curated list of restaurants in Santa Clarita to boost your mood, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphStressed">
-                        Stressed description
+                    <p>Because you are feeling stressed, we recommend:</p>
+                        <p>* tea</p>
+                        <p>* other drinks with antioxidants</p>
+                        <p>Drinking tea lowers levels of the stress hormone cortisol! It is scientifically proven that half a cup of green tea a day will lower the risk of developing depression and dementia.</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your stress, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphAngry">
-                        Angry description
+                    <p>Because you are feeling angry, we recommend:</p>
+                        <p>* salad</p>
+                        <p>* other healthy greens</p>
+                        <p>Intake of sugar is not beneficial to anger, so consuming healthy veggies and salad will help relieve the anger.</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your anger, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphCold">
-                        Cold description
+                    <p>Because you are feeling sick and cold, we recommend:</p>
+                        <p>* soup</p>
+                        <p>* warm food</p>
+                        <p>Soup has nutriets that will aid to a speedy recovery, the heat helps with congestion and pain, and the sodium soothes sore throats.</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help with your cold, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphCovid">
-                        Covid description
+                    <p>Because you have Covd, we recommend:</p>
+                        <p>* fruit</p>
+                        <p>* food with high amounts of fruit</p>
+                        <p>Fruits have high amounts of vitamins and fiber that will help combat the corona virus.</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita that will help to a speedy recovery, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphHungover">
-                        Hungover description
+                    <p>Because you are feeling hungover, we recommend:</p>
+                        <p>* a healthy breakfast</p>
+                        <p>* a hearty brunch</p>
+                        <p>Waking up hungover can be a great pain to your head and body. Eating a healthy and hearty breakfast or lunch will help you feel better faster!</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help with your hangover, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphPregnant">
-                        Pregnant description
+                    <p>Because you are pregnant, we recommend:</p>
+                        <p>* burgers</p>
+                        <p>* fries</p>
+                        <p>Being pregnant can be stressful and tiring, so eating some yummy burgers and fries wil relieve some cravings!</p>
+                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help you feel better during pregnancy, or, type something in the search bar to discover more food!</p>
                     </div>
                 </div>
 

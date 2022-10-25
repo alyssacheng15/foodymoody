@@ -58,11 +58,13 @@
     /* background-image: url('./confetti.mp4'); */
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 25rem;
+    height: 20rem;
 
     /* adding in the box border */
-    border-radius: 20px;
-    border: 5px solid gray;
+    border: 3px solid #d1bdda;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
   }
   
   .SearchBar-sort-options ul {
@@ -216,7 +218,7 @@
 /* blurbs */
 .Blurbs {
   border-radius: 20px;
-  border: 2px solid #d1bdda;
+  border: 2px solid #ABB9CF;
   
   /* font */
   font-weight: 400; 
@@ -235,6 +237,11 @@ h4 {
   margin-bottom: 30px;
   padding: 10px;
   font-size: 20px;
+  text-align: center;
+}
+h5 {
+  margin-top: 40px;
+  font-size: 15px;
   text-align: center;
 }
 p {

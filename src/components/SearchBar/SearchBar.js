@@ -194,7 +194,7 @@ class SearchBar extends React.Component {
                         <p>* smoothies</p>
                         <p>* acai bowls</p>
                         <p>These have healthy sugars that will keep you happy.</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphSad">
                         <h4>Because you are feeling sad, we recommend:</h4>
@@ -202,48 +202,48 @@ class SearchBar extends React.Component {
                         <p>* cookies</p>
                         <p>* other desserts</p>
                         <p>Treat yourself when feeling down! Science has proven that intake of sugar will boost your serotonin.</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to boost your mood, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphStressed">
                     <h4>Because you are feeling stressed, we recommend:</h4>
                         <p>* tea</p>
                         <p>* other drinks with antioxidants</p>
                         <p>Drinking tea lowers levels of the stress hormone cortisol! It is scientifically proven that half a cup of green tea a day will lower the risk of developing depression and dementia.</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your stress, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphAngry">
                     <h4>Because you are feeling angry, we recommend:</h4>
                         <p>* salad</p>
                         <p>* other healthy greens</p>
                         <p>Intake of sugar is not beneficial to anger, so consuming healthy veggies and salad will help relieve the anger.</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your anger, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphCold">
                     <h4>Because you are feeling sick and cold, we recommend:</h4>
                         <p>* soup</p>
                         <p>* warm food</p>
                         <p>Soup has nutriets that will aid to a speedy recovery, the heat helps with congestion and pain, and the sodium soothes sore throats.</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help with your cold, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphTired">
                     <h4>Because you are feeling tired, we recommend:</h4>
                         <p>* coffee</p>
                         <p>Coffee and caffeine in general, gives the body a temporary energy boost. It is important to regulate your caffeine intake.</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita that will help to a speedy recovery, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphHungover">
                     <h4>Because you are feeling hungover, we recommend:</h4>
                         <p>* a healthy breakfast</p>
                         <p>* a hearty brunch</p>
                         <p>Waking up hungover can be a great pain to your head and body. Eating a healthy and hearty breakfast or lunch will help you feel better faster!</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help with your hangover, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphPregnant">
                     <h4>Because you are pregnant, we recommend:</h4>
                         <p>* burgers</p>
                         <p>* fries</p>
                         <p>Being pregnant can be stressful and tiring, so eating some yummy burgers and fries wil relieve some cravings!</p>
-                        <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help you feel better during pregnancy, or, type something in the search bar to discover more food!</p>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                 </div>
 

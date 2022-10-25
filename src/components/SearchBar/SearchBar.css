@@ -59,6 +59,10 @@
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 25rem;
+
+    /* adding in the box border */
+    border-radius: 20px;
+    border: 5px solid gray;
   }
   
   .SearchBar-sort-options ul {
@@ -209,3 +213,12 @@
     display: none;
   }
 
+/* blurbs */
+.Blurbs {
+  border-radius: 20px;
+  border: 2px solid #d1bdda;
+  
+  /* font */
+  font-weight: 400; 
+  font-size: 15px;
+}

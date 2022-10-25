@@ -186,7 +186,9 @@ class SearchBar extends React.Component {
 
                 <div className="Blurbs">
                     <div id="paragraphHappy">
-                        <p>Because you are feeling happy, we recommend:</p>
+                        <p>Because you are feeling happy, we recommend:
+                            <br></br>
+                        </p>
                         <p>* smoothies</p>
                         <p>* acai bowls</p>
                         <p>These have healthy sugars that will keep you happy.</p>

@@ -1,8 +1,20 @@
 /* main parent div class */
 .body {
   padding: 60px;
+  background-color: #f5eded;
 }
+
 .moodBoard {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d1bdda;
+  
+  padding: 80px;
+  margin: auto;
+  width: 80%;
+}
+
+.moodBoardQuestion {
   font-size: 25px;
   text-align: center;
   width: 60%;
@@ -21,10 +33,11 @@
 .moodButtons button {
   border-radius: 5px;
   padding: .72rem 1.7rem;
-  background-color: #83bea5;
+  background-color: #ABB9CF;
   color: #ffffff;
+  text-shadow: 2px 2px 5px gray;
 
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   text-decoration: none;
 

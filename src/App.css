@@ -36,11 +36,12 @@ input:focus {
 
 h1 {
   padding: .66rem 0;
+  padding: 30px;
   text-align: center;
   background-color: #ABB9CF;
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
-  color: #fff;
+  color: #f5eded;
 }
 
 /* deleted the food in santa clarita section to match the figma */
@@ -69,5 +70,3 @@ h1 {
   padding: 20px;
 }
 
-
-/* mood board */

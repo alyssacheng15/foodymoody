@@ -104,10 +104,10 @@ class SearchBar extends React.Component {
             <div className="body">
             
                 <div className="moodBoard">
+                    <div className="moodBoardQuestion">
                     <h3>What mood are you feeling right now?</h3>
-                </div>
-                
-                <div className="moodButtons">
+                    </div>
+                    <div className="moodButtons">
                         <button onClick={this.Happy}>Happy</button>
                         <button onClick={this.Sad}>Sad</button>
                         <button onClick={this.Stressed}>Stressed</button>
@@ -116,7 +116,9 @@ class SearchBar extends React.Component {
                         <button onClick={this.Covid}>Covid</button>
                         <button onClick={this.Hungover}>Hungover</button>
                         <button onClick={this.Pregnant}>Pregnant</button>
+                    </div>
                 </div>
+                
 
                 <div className="SearchBar">
                     <div className="SearchBar-fields">

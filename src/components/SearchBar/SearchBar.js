@@ -19,7 +19,7 @@ class SearchBar extends React.Component {
             categoryStressed: 'tea',
             categoryAngry: 'salad',
             categoryCold: 'soup',
-            categoryCovid: 'fruit',
+            categoryTired: 'coffee',
             categoryHungover: 'breakfast',
             categoryPregnant: 'burger',
         };
@@ -32,7 +32,7 @@ class SearchBar extends React.Component {
         this.Stressed = this.Stressed.bind(this);
         this.Angry = this.Angry.bind(this);
         this.Cold = this.Cold.bind(this);
-        this.Covid = this.Covid.bind(this);
+        this.Tired = this.Tired.bind(this);
         this.Hungover = this.Hungover.bind(this);
         this.Pregnant = this.Pregnant.bind(this);
     }
@@ -44,7 +44,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";    	
     }
@@ -56,7 +56,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";   
     }
@@ -68,7 +68,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "block";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
     }
@@ -80,7 +80,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "block";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
     }
@@ -92,19 +92,19 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "block";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
     }
 
-    Covid(event) {
+    Tired(event) {
         this.props.searchYelp(this.state.categoryCovid);
         document.getElementById("paragraphHappy").style.display = "none";
         document.getElementById("paragraphSad").style.display = "none";
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "block";
+        document.getElementById("paragraphTired").style.display = "block";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
     }
@@ -116,7 +116,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "block";
         document.getElementById("paragraphPregnant").style.display = "none";
     }
@@ -128,7 +128,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphStressed").style.display = "none";
         document.getElementById("paragraphAngry").style.display = "none";
         document.getElementById("paragraphCold").style.display = "none";
-        document.getElementById("paragraphCovid").style.display = "none";
+        document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "block";
     }
@@ -177,7 +177,7 @@ class SearchBar extends React.Component {
                         <button onClick={this.Stressed}>Stressed</button>
                         <button onClick={this.Angry}>Angry</button>
                         <button onClick={this.Cold}>Cold</button>
-                        <button onClick={this.Covid}>Covid</button>
+                        <button onClick={this.Tired}>Tired</button>
                         <button onClick={this.Hungover}>Hungover</button>
                         <button onClick={this.Pregnant}>Pregnant</button>
                     </div>
@@ -223,11 +223,10 @@ class SearchBar extends React.Component {
                         <p>Soup has nutriets that will aid to a speedy recovery, the heat helps with congestion and pain, and the sodium soothes sore throats.</p>
                         <p>Scroll down to discover a curated list of restaurants in Santa Clarita to help with your cold, or, type something in the search bar to discover more food!</p>
                     </div>
-                    <div id="paragraphCovid">
-                    <p>Because you have Covd, we recommend:</p>
-                        <p>* fruit</p>
-                        <p>* food with high amounts of fruit</p>
-                        <p>Fruits have high amounts of vitamins and fiber that will help combat the corona virus.</p>
+                    <div id="paragraphTired">
+                    <p>Because you are feeling tired, we recommend:</p>
+                        <p>* coffee</p>
+                        <p>Coffee and caffeine in general, gives the body a temporary energy boost. It is important to regulate your caffeine intake.</p>
                         <p>Scroll down to discover a curated list of restaurants in Santa Clarita that will help to a speedy recovery, or, type something in the search bar to discover more food!</p>
                     </div>
                     <div id="paragraphHungover">

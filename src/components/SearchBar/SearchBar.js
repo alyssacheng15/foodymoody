@@ -98,7 +98,7 @@ class SearchBar extends React.Component {
     }
 
     Tired(event) {
-        this.props.searchYelp(this.state.categoryCovid);
+        this.props.searchYelp(this.state.categoryTired);
         document.getElementById("paragraphHappy").style.display = "none";
         document.getElementById("paragraphSad").style.display = "none";
         document.getElementById("paragraphStressed").style.display = "none";

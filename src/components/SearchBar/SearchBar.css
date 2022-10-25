@@ -209,7 +209,7 @@
     margin-left: 80%;
   }
 
-  #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphCovid, #paragraphHungover, #paragraphPregnant {
+  #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphTired, #paragraphHungover, #paragraphPregnant {
     display: none;
   }
 
@@ -221,4 +221,6 @@
   /* font */
   font-weight: 400; 
   font-size: 15px;
+
+  padding: 30px;
 }

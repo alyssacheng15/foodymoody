@@ -77,30 +77,36 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="SearchBar">
+            <div className="body">
+            
+                <div className="moodBoard">
+                    <h3>What mood are you feeling right now?</h3>
+                </div>
                 
-                <div className="SearchBar-fields">
-                    <input placeholder="Search Food" onChange={this.handleTermChange} />
-                </div>
-                <div className="button1">
-                    <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>
-                </div>
-
                 <div className="moodButtons">
-                    <button onClick={this.happy}>happy</button>
-                    <button onClick={this.sad}>sad</button>
-                    <button onClick={this.stressed}>stressed</button>
-                    <button onClick={this.angry}>angry</button>
+                        <button onClick={this.happy}>happy</button>
+                        <button onClick={this.sad}>sad</button>
+                        <button onClick={this.stressed}>stressed</button>
+                        <button onClick={this.angry}>angry</button>
                 </div>
 
-                <div className="test">
-                    <ul>
-                        <li>this is just a test:</li>
-                        <li>happy = cake</li>
-                        <li>sad = tacos</li>
-                        <li>stressed = ramen</li>
-                        <li>angry = burgers</li>
-                    </ul>
+                <div className="SearchBar">
+                    <div className="test">
+                        <ul>
+                            <li>this is just a test:</li>
+                            <li>happy = cake</li>
+                            <li>sad = tacos</li>
+                            <li>stressed = ramen</li>
+                            <li>angry = burgers</li>
+                        </ul>
+                    </div>
+                
+                    <div className="SearchBar-fields">
+                        <input placeholder="Search Food" onChange={this.handleTermChange} />
+                    </div>
+                    <div className="button1">
+                        <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>
+                    </div>
                 </div>
             </div>
         )

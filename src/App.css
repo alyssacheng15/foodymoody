@@ -54,12 +54,20 @@ h1 {
   background-color: #d1bdda;
 }
 
-.quizIntroductionText {
+.quizIntroductionText1 {
   width: 50%;
   margin: auto;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   padding: 20px;
 }
+.quizIntroductionText2 {
+  width: 50%;
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  padding: 20px;
+}
+
 
 /* mood board */

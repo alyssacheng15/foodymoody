@@ -7,16 +7,6 @@ const sortByOptions = {
     'Most Reviewed': 'review_count'
 };
 
-function happyScroll() {
-    //window.scrollTo({
-        //top: 100,
-        //left: 100,
-        //behavior: 'smooth'
-    //}
-   // )
-   
-}
-
 class SearchBar extends React.Component {
     constructor(props) {
         super(props);
@@ -45,6 +35,14 @@ class SearchBar extends React.Component {
         this.Tired = this.Tired.bind(this);
         this.Hungover = this.Hungover.bind(this);
         this.Pregnant = this.Pregnant.bind(this);
+        this.Go = this.Go.bind(this);
+    }
+
+    Go(event) {
+        var scrollie = document.getElementById("moodBoard");
+        scrollie.scrollIntoView({
+            behavior: 'smooth'
+        })
     }
 
     Happy(event) {
@@ -195,6 +193,7 @@ class SearchBar extends React.Component {
         elem.scrollIntoView({
             behavior: 'smooth'
         });   
+        document.getElementById("blurbs").style.display = "none";
     }
 
     getSortByClass(sortByOption) {
@@ -225,8 +224,8 @@ class SearchBar extends React.Component {
     render() {
         return (
             <div className="body">
-            
-                <div className="moodBoard">
+                <button className="go" onClick={this.Go}>Start</button>
+                <div id="moodBoard" className="moodBoard">
                     <div className="moodBoardQuestion">
                     <h3>What mood are you feeling right now?</h3>
                     </div>
@@ -275,7 +274,8 @@ class SearchBar extends React.Component {
                             <p>* other deserts</p>
                         </div>
                         <p>Treat yourself when feeling down! Science has proven that intake of sugar will boost your serotonin.</p>
-                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to boost your mood!</h5>
+                        <h5>Or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphStressed">
                     <h4>Because you are feeling stressed, we recommend:</h4>
@@ -284,7 +284,7 @@ class SearchBar extends React.Component {
                             <p>* other drinks with antioxidants</p>
                         </div>                        
                         <p>Drinking tea lowers levels of the stress hormone cortisol! It is scientifically proven that half a cup of green tea a day will lower the risk of developing depression and dementia.</p>
-                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your stress, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphAngry">
                     <h4>Because you are feeling angry, we recommend:</h4>

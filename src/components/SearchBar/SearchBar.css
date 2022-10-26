@@ -279,3 +279,22 @@ p {
 #separation {
   margin-bottom: 30px;
 }
+
+.go {
+  display: flex;
+  margin-top: -450px;
+  margin-left: 43vw;
+  margin-bottom: 500px;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  padding-left: 2.5vw;
+  background-color: #9cadca;
+  color: white;
+}
+
+.go:hover {
+  cursor: pointer;
+}

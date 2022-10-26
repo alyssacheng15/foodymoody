@@ -106,11 +106,11 @@
     width: 21rem;
     padding: .66rem 1rem;
     margin-right: 2.22rem;
-    border: 1px solid rgb(151, 60, 60);
+    border: 1px solid #5e5760;
     border-radius: 4px;
     font-size: .77rem;
     font-weight: 500;
-    background-color:rgb(237, 221, 221);
+    background-color: #e7dceb;
     margin-top: 70px;
   }
   
@@ -125,16 +125,16 @@
   .button1 a {
     border-radius: 4px;
     padding: .72rem 1.7rem;
-    background-color: #cca353;
+    background-color: #9cadca;
     color: #ffffff;
     font-weight: 600;
-    transition: background-color .5s;
+    transition: background-color 0.5s;
     text-decoration: none;
     margin-left: 40%;
   }
   
   .button1 a:hover {
-    background-color: #e2c48d;
+    background-color: #ABB9CF;
   }
 
   .button1{
@@ -150,7 +150,7 @@
     font-size:20px;
     text-align: center;
     text-decoration:none;
-    background-color:#FFA12B;
+    background-color:#9cadca;
     display:block;
     position:relative;
     padding:20px 40px;
@@ -160,9 +160,9 @@
     text-shadow: 0px 1px 0px #000;
     filter: dropshadow(color=#000, offx=0px, offy=1px);
     
-    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
-    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #3e4756;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #3e4756;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #3e4756;
     
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -171,11 +171,11 @@
   
   .button1 a:active{
     top:10px;
-    background-color:#F78900;
+    background-color:#9cadca;
     
-    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
-    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
-    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #3e4756;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #3e4756;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #3e4756;
   }
   
   .button1:after{
@@ -240,13 +240,14 @@ h4 {
   text-align: center;
 }
 h5 {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 15px;
   text-align: center;
 }
 p {
   font-size: 18px;
 }
+<<<<<<< HEAD
 
 .restaurantsDescription h4 {
   margin-top: 50px;
@@ -254,4 +255,8 @@ p {
 
 .restaurantsDescription p {
   margin-top: 20px;
+=======
+#separation {
+  margin-bottom: 30px;
+>>>>>>> 3ac60b0ea14167bfdb4c8d32e6a240b161ff969a
 }

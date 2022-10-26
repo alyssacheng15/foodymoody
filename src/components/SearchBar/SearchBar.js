@@ -200,7 +200,9 @@ class SearchBar extends React.Component {
                     <div id="paragraphHappy">
                         <h4>Because you are feeling happy, we recommend:</h4>
                         <p>* smoothies</p>
-                        <p>* acai bowls</p>
+                        <div id="separation">
+                            <p>* acai bowls</p>
+                        </div>
                         <p>These have healthy sugars that will keep you happy.</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
@@ -208,48 +210,62 @@ class SearchBar extends React.Component {
                         <h4>Because you are feeling sad, we recommend:</h4>
                         <p>* cakes</p>
                         <p>* cookies</p>
-                        <p>* other desserts</p>
+                        <div id="separation">
+                            <p>* other deserts</p>
+                        </div>
                         <p>Treat yourself when feeling down! Science has proven that intake of sugar will boost your serotonin.</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphStressed">
                     <h4>Because you are feeling stressed, we recommend:</h4>
                         <p>* tea</p>
-                        <p>* other drinks with antioxidants</p>
+                        <div id="separation">
+                            <p>* other drinks with antioxidants</p>
+                        </div>                        
                         <p>Drinking tea lowers levels of the stress hormone cortisol! It is scientifically proven that half a cup of green tea a day will lower the risk of developing depression and dementia.</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphAngry">
                     <h4>Because you are feeling angry, we recommend:</h4>
                         <p>* salad</p>
-                        <p>* other healthy greens</p>
+                        <div id="separation">
+                            <p>* other healthy greens</p>
+                        </div>                        
                         <p>Intake of sugar is not beneficial to anger, so consuming healthy veggies and salad will help relieve the anger.</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphCold">
                     <h4>Because you are feeling sick and cold, we recommend:</h4>
                         <p>* soup</p>
-                        <p>* warm food</p>
+                        <div id="separation">
+                            <p>* warm food</p>
+                        </div>
                         <p>Soup has nutriets that will aid to a speedy recovery, the heat helps with congestion and pain, and the sodium soothes sore throats.</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphTired">
                     <h4>Because you are feeling tired, we recommend:</h4>
-                        <p>* coffee</p>
+                        <div id="separation">
+                            <p>* coffee</p>
+                        </div>
                         <p>Coffee and caffeine in general, gives the body a temporary energy boost. It is important to regulate your caffeine intake.</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphHungover">
                     <h4>Because you are feeling hungover, we recommend:</h4>
                         <p>* a healthy breakfast</p>
-                        <p>* a hearty brunch</p>
+                        <div id="separation">
+                            <p>* a hearty brunch</p>
+                        </div>
                         <p>Waking up hungover can be a great pain to your head and body. Eating a healthy and hearty breakfast or lunch will help you feel better faster!</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
                     <div id="paragraphPregnant">
                     <h4>Because you are pregnant, we recommend:</h4>
                         <p>* burgers</p>
-                        <p>* fries</p>
+                        <div id="separation">
+                            <p>* fries</p>
+                        </div>
                         <p>Being pregnant can be stressful and tiring, so eating some yummy burgers and fries wil relieve some cravings!</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
                     </div>
@@ -261,7 +277,7 @@ class SearchBar extends React.Component {
                         <input placeholder="Ramen, Mexican, etc" onChange={this.handleTermChange} />
                     </div>
                     <div className="button1">
-                        <a href="www.#.com" onClick={this.handleSearch}>Let's Go</a>
+                        <a href="www.#.com" onClick={this.handleSearch}>SEARCH</a>
                     </div>
                 </div>
 

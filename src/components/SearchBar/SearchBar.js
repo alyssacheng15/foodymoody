@@ -36,11 +36,19 @@ class SearchBar extends React.Component {
         this.Hungover = this.Hungover.bind(this);
         this.Pregnant = this.Pregnant.bind(this);
         this.Go = this.Go.bind(this);
+        this.Search = this.Search.bind(this);
     }
 
     Go(event) {
         var scrollie = document.getElementById("moodBoard");
         scrollie.scrollIntoView({
+            behavior: 'smooth'
+        })
+    }
+
+    Search(event) {
+        var go = document.getElementById("searchBar");
+        go.scrollIntoView({
             behavior: 'smooth'
         })
     }
@@ -246,8 +254,9 @@ class SearchBar extends React.Component {
                 </div>
 
 
-                <div className="SearchBar">
+                <div className="SearchBar" id="searchBar">
                     <div className="SearchBarText">
+                        <h4>Type below to search for restaurants manually</h4>
                         <p>
                             Search for restaurants depending on what you are craving! Type in a cuisine, or type of food!
                         </p>
@@ -339,6 +348,8 @@ class SearchBar extends React.Component {
                 <div id="restaurantsD" className="restaurantsDescription">
                     <h4>We think you would like these restaurants!</h4>
                     <h5>Feel free to click on them to go to their Yelp page.</h5>
+                    <h5>Click here if you would like to search for more restaurants manually!</h5>
+                    <button className="go" onClick={this.Search}><span>Go</span></button>
                 </div>
                 </div>
             </div>

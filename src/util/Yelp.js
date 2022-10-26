@@ -2,7 +2,7 @@ const apiKey = 'L_9VwAYsriimFPwSQ-MZZclFRQ89HBtjNu6-Sd8EYAJScWMboxTcl3Zy6eSPViSU
 
 const Yelp = {
     async searchYelp(term, location, sortBy) {
-        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=santa_clarita&sort_by=rating&limit=50`, {
+        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=santa_clarita&sort_by=review_count&limit=50`, {
             headers: {
                 Authorization: `Bearer ${apiKey}`,
             },

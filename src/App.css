@@ -49,25 +49,26 @@ h1 {
 
 /* Quiz Introduction Section with Text */
 .quizIntroduction {
-  font-size: 30px;
   text-align: center;
 
   padding: 50px;
   background-color: #d1bdda;
 }
 
-.quizIntroductionText1 {
+.quizIntroductionText1 p{
   width: 50%;
   margin: auto;
   color: white;
   font-weight: 400;
+  font-size: 30px;
   padding: 20px;
 }
-.quizIntroductionText2 {
+.quizIntroductionText2 p{
   width: 50%;
   margin: auto;
   color: white;
   font-weight: 600;
+  font-size: 25px;
   padding: 20px;
 }
 
@@ -75,7 +76,9 @@ h1 {
 /* background */
 
 .drawing {
-  background-image: url('./ezgif.com-gif-maker.gif');
+  background-image: url('./backgroundPic.GIF');
   background-size: cover;
   height: 27vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }

@@ -25,8 +25,6 @@ class App extends Component {
       <div className="App">
         <h1>SCV Yelp</h1>
         <div className="drawing">
-        <video src="confett.mp4" width="100%" height="100%" autoPlay></video>
-
         </div>
         <div className="quizIntroduction">
           <div className="quizIntroductionText1">

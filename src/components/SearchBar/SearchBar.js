@@ -47,7 +47,8 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
-        document.getElementById("blurbs").style.display = "block";    	
+        document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";    	
     }
 
     Sad(event) {
@@ -59,7 +60,8 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphCold").style.display = "none";
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
-        document.getElementById("blurbs").style.display = "block";   
+        document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";   
     }
 
     Stressed(event) {
@@ -72,6 +74,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";
     }
 
     Angry(event) {
@@ -84,6 +87,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";
     }
 
     Cold(event) {
@@ -97,6 +101,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";
     }
 
     Tired(event) {
@@ -109,6 +114,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "block";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";
     }
 
     Hungover(event) {
@@ -122,6 +128,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "block";
         document.getElementById("paragraphPregnant").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";
     }
 
     Pregnant(event) {
@@ -135,6 +142,7 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "block";
         document.getElementById("blurbs").style.display = "block";
+        document.getElementById("restaurantsD").style.display = "block";
     }
     
     handleSearch(event) {
@@ -276,6 +284,11 @@ class SearchBar extends React.Component {
                     <div className="button1">
                         <a href="www.#.com" onClick={this.handleSearch}>SEARCH</a>
                     </div>
+                </div>
+
+                <div id="restaurantsD" className="restaurantsDescription">
+                    <h4>We think you would like these restaurants!</h4>
+                    <h5>Feel free to click on them to go to their Yelp page.</h5>
                 </div>
             </div>
         )

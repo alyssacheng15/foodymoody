@@ -7,6 +7,16 @@ const sortByOptions = {
     'Most Reviewed': 'review_count'
 };
 
+function happyScroll() {
+    //window.scrollTo({
+        //top: 100,
+        //left: 100,
+        //behavior: 'smooth'
+    //}
+   // )
+   
+}
+
 class SearchBar extends React.Component {
     constructor(props) {
         super(props);
@@ -48,7 +58,11 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("paragraphPregnant").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
-        document.getElementById("restaurantsD").style.display = "block";    	
+        document.getElementById("restaurantsD").style.display = "block"; 
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   	
     }
 
     Sad(event) {
@@ -61,7 +75,11 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphTired").style.display = "none";
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
-        document.getElementById("restaurantsD").style.display = "block";   
+        document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });      
     }
 
     Stressed(event) {
@@ -75,6 +93,10 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
         document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
 
     Angry(event) {
@@ -88,6 +110,10 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
         document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
 
     Cold(event) {
@@ -102,6 +128,10 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphPregnant").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
         document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
 
     Tired(event) {
@@ -115,6 +145,10 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphHungover").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
         document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
 
     Hungover(event) {
@@ -129,6 +163,10 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphPregnant").style.display = "none";
         document.getElementById("blurbs").style.display = "block";
         document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
 
     Pregnant(event) {
@@ -143,11 +181,20 @@ class SearchBar extends React.Component {
         document.getElementById("paragraphPregnant").style.display = "block";
         document.getElementById("blurbs").style.display = "block";
         document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("blurbs");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
     
     handleSearch(event) {
         this.props.searchYelp(this.state.term, this.state.sortBy);
         event.preventDefault();
+        document.getElementById("restaurantsD").style.display = "block";
+        var elem = document.getElementById("restaurantsD");
+        elem.scrollIntoView({
+            behavior: 'smooth'
+        });   
     }
 
     getSortByClass(sortByOption) {

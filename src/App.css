@@ -88,7 +88,7 @@ h1 {
 .logo {
   height: 5vw;
   background-size: cover;
-  background-image: url('titleLogo.PNG');
+  background-image: url('banner.png');
   background-repeat: no-repeat;
   background-color: #848c9f;
 }

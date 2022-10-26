@@ -194,7 +194,21 @@ class SearchBar extends React.Component {
                         <button onClick={this.Pregnant}>Pregnant</button>
                     </div>
                 </div>
-                
+
+
+                <div className="SearchBar">
+                    <div className="SearchBarText">
+                        <p>
+                            Search for restaurants depending on what you are craving! Type in a cuisine, or type of food!
+                        </p>
+                    </div>
+                    <div className="SearchBar-fields">
+                        <input placeholder="Ramen, Mexican, etc" onChange={this.handleTermChange} />
+                    </div>
+                    <div className="button1">
+                        <a href="www.#.com" onClick={this.handleSearch}>SEARCH</a>
+                    </div>
+                </div>
 
                 <div className="Blurbs" id="blurbs">
                     <div id="paragraphHappy">
@@ -268,21 +282,6 @@ class SearchBar extends React.Component {
                         </div>
                         <p>Being pregnant can be stressful and tiring, so eating some yummy burgers and fries wil relieve some cravings!</p>
                         <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
-                    </div>
-                </div>
-
-
-                <div className="SearchBar">
-                    <div className="SearchBarText">
-                        <p>
-                            Search for restaurants depending on what you are craving! Type in a cuisine, or type of food!
-                        </p>
-                    </div>
-                    <div className="SearchBar-fields">
-                        <input placeholder="Ramen, Mexican, etc" onChange={this.handleTermChange} />
-                    </div>
-                    <div className="button1">
-                        <a href="www.#.com" onClick={this.handleSearch}>SEARCH</a>
                     </div>
                 </div>
 

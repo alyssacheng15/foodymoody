@@ -265,6 +265,11 @@ class SearchBar extends React.Component {
 
 
                 <div className="SearchBar">
+                    <div className="SearchBarText">
+                        <p>
+                            Search for restaurants depending on what you are craving! Type in a cuisine, or type of food!
+                        </p>
+                    </div>
                     <div className="SearchBar-fields">
                         <input placeholder="Ramen, Mexican, etc" onChange={this.handleTermChange} />
                     </div>

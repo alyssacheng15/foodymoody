@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-image: url('./confetti.mp4'); */
+    /* background-image: url('./background.PNG'); */
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 20rem;
@@ -211,7 +211,7 @@
     margin-left: 80%;
   }
 
-  #blurbs, #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphTired, #paragraphHungover, #paragraphPregnant {
+  #restaurantsD, #blurbs, #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphTired, #paragraphHungover, #paragraphPregnant {
     display: none;
   }
 
@@ -246,4 +246,12 @@ h5 {
 }
 p {
   font-size: 18px;
+}
+
+.restaurantsDescription h4 {
+  margin-top: 50px;
+}
+
+.restaurantsDescription p {
+  margin-top: 20px;
 }

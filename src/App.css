@@ -73,3 +73,9 @@ h1 {
 
 
 /* background */
+
+.drawing {
+  background-image: url('./ezgif.com-gif-maker.gif');
+  background-size: cover;
+  height: 27vw;
+}

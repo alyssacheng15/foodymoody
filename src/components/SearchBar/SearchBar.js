@@ -223,8 +223,12 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="body">
-                <button className="go" onClick={this.Go}>Start</button>
+            <div className="body1">
+                <div className="goWrapper">
+                    <button className="go" onClick={this.Go}><span>START</span></button>
+                </div>
+
+                <div className="actualBody">
                 <div id="moodBoard" className="moodBoard">
                     <div className="moodBoardQuestion">
                     <h3>What mood are you feeling right now?</h3>
@@ -335,6 +339,7 @@ class SearchBar extends React.Component {
                 <div id="restaurantsD" className="restaurantsDescription">
                     <h4>We think you would like these restaurants!</h4>
                     <h5>Feel free to click on them to go to their Yelp page.</h5>
+                </div>
                 </div>
             </div>
         )

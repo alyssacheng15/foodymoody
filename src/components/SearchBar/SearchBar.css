@@ -1,5 +1,8 @@
 /* main parent div class */
 .body {
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+.actualBody {
   padding: 60px;
   background-color: #f5eded;
 }
@@ -280,21 +283,63 @@ p {
   margin-bottom: 30px;
 }
 
-.go {
-  display: flex;
-  margin-top: -450px;
-  margin-left: 43vw;
-  margin-bottom: 500px;
-  border-radius: 20px;
-  width: 100px;
-  height: 30px;
+/* go button */
+
+.goWrapper {
   text-align: center;
-  align-items: center;
-  padding-left: 2.5vw;
+  background-color: #d1bdda;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.go {
+  cursor: pointer;
+  font-size: 20pt;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  border: solid #777 2px;
+  color: white;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  background: #697995;
+
+}
+
+.go:before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #9cadca;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.go:hover:before {
+  width: 100%;
+}
+
+.go:hover {
+  color: #f1f1f1;
+  border-color: #9cadca;
+}
+
+.go:active:before {
+  background-color: #9cadca;
+}
+
+.go:active {
+  border-color: #9cadca;
   background-color: #9cadca;
   color: white;
 }
 
-.go:hover {
-  cursor: pointer;
+.go:focus {
+  outline: none
 }

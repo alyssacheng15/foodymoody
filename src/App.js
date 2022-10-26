@@ -23,7 +23,7 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <h1>SCV Yelp</h1>
+        <div className="logo"></div>
         <div className="drawing">
         </div>
         <div className="quizIntroduction">
@@ -37,7 +37,7 @@ class App extends Component {
 
           <div className="quizIntroductionText2">
             <p>
-              Take this fun and quiz to see which American small business you will be supporting next!
+              Take this fun quiz to see which American small business you will be supporting next!
             </p>
           </div>
 

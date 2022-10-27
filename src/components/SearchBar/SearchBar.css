@@ -343,3 +343,7 @@ p {
 .go:focus {
   outline: none
 }
+
+.spacey {
+  height: 5vw;
+}

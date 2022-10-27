@@ -47,7 +47,7 @@ class SearchBar extends React.Component {
     }
 
     Search(event) {
-        var go = document.getElementById("searchBar");
+        var go = document.getElementById("spacey");
         go.scrollIntoView({
             behavior: 'smooth'
         })
@@ -252,7 +252,8 @@ class SearchBar extends React.Component {
                         <button onClick={this.Pregnant}>Pregnant</button>
                     </div>
                 </div>
-
+            
+                <div className='spacey' id='spacey'></div>
 
                 <div className="SearchBar" id="searchBar">
                     <div className="SearchBarText">
@@ -297,7 +298,7 @@ class SearchBar extends React.Component {
                             <p>* other drinks with antioxidants</p>
                         </div>                        
                         <p>Drinking tea lowers levels of the stress hormone cortisol! It is scientifically proven that half a cup of green tea a day will lower the risk of developing depression and dementia.</p>
-                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your stress, or, type something in the search bar to discover more food!</h5>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to relieve your stress!</h5>
                     </div>
                     <div id="paragraphAngry">
                     <h4>Because you are feeling angry, we recommend:</h4>
@@ -306,7 +307,7 @@ class SearchBar extends React.Component {
                             <p>* other healthy greens</p>
                         </div>                        
                         <p>Intake of sugar is not beneficial to anger, so consuming healthy veggies and salad will help relieve the anger.</p>
-                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to feel better!</h5>
                     </div>
                     <div id="paragraphCold">
                     <h4>Because you are feeling sick and cold, we recommend:</h4>
@@ -315,7 +316,7 @@ class SearchBar extends React.Component {
                             <p>* warm food</p>
                         </div>
                         <p>Soup has nutriets that will aid to a speedy recovery, the heat helps with congestion and pain, and the sodium soothes sore throats.</p>
-                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to feel better!</h5>
                     </div>
                     <div id="paragraphTired">
                     <h4>Because you are feeling tired, we recommend:</h4>
@@ -323,7 +324,7 @@ class SearchBar extends React.Component {
                             <p>* coffee</p>
                         </div>
                         <p>Coffee and caffeine in general, gives the body a temporary energy boost. It is important to regulate your caffeine intake.</p>
-                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita to sustain your happiness, or, type something in the search bar to discover more food!</h5>
+                        <h5>Scroll down to discover a curated list of restaurants in Santa Clarita for more energy!</h5>
                     </div>
                     <div id="paragraphHungover">
                     <h4>Because you are feeling hungover, we recommend:</h4>

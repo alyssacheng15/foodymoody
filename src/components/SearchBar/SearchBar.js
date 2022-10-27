@@ -40,14 +40,14 @@ class SearchBar extends React.Component {
     }
 
     Go(event) {
-        var scrollie = document.getElementById("moodBoard");
+        var scrollie = document.getElementById("spacey1");
         scrollie.scrollIntoView({
             behavior: 'smooth'
         })
     }
 
     Search(event) {
-        var go = document.getElementById("spacey");
+        var go = document.getElementById("spacey2");
         go.scrollIntoView({
             behavior: 'smooth'
         })
@@ -237,6 +237,7 @@ class SearchBar extends React.Component {
                 </div>
 
                 <div className="actualBody">
+                    <div id="spacey1"></div>
                 <div id="moodBoard" className="moodBoard">
                     <div className="moodBoardQuestion">
                     <h3>What mood are you feeling right now?</h3>
@@ -253,7 +254,7 @@ class SearchBar extends React.Component {
                     </div>
                 </div>
             
-                <div className='spacey' id='spacey'></div>
+                <div className='spacey2' id='spacey2'></div>
 
                 <div className="SearchBar" id="searchBar">
                     <div className="SearchBarText">
@@ -350,9 +351,9 @@ class SearchBar extends React.Component {
                     <h4>We think you would like these restaurants!</h4>
                     <h5>Feel free to click on them to go to their Yelp page.</h5>
                     <h5>Click here if you would like to search for more restaurants manually!</h5>
-                    
-                    <div className="goWrapper">
-                        <button className="go" onClick={this.Search}><span>Manual Search</span></button>
+
+                    <div className="manSearchWrapper">
+                        <button className="manSearch" onClick={this.Search}><span>Manual Search</span></button>
                     </div>
                 </div>
                 </div>

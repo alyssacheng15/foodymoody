@@ -14,6 +14,7 @@
   padding: 7vw;
   margin: auto;
   width: 70vw;
+  margin-top: 30px;
 }
 
 .moodBoardQuestion {
@@ -346,4 +347,77 @@ p {
 
 .go:focus {
   outline: none
+}
+
+/* manual search */
+
+.manSearchWrapper {
+  text-align: center;
+  width: 100%;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+
+.manSearch {
+  cursor: pointer;
+  font-size: 20pt;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  position: relative;
+  border: solid #777 2px;
+  color: white;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  background: #697995;
+
+}
+
+.manSearch:before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #9cadca;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.manSearch:hover:before {
+  width: 100%;
+}
+
+.manSearch:hover {
+  color: #f1f1f1;
+  border-color: #9cadca;
+}
+
+.manSearch:active:before {
+  background-color: #9cadca;
+}
+
+.manSearch:active {
+  border-color: #9cadca;
+  background-color: #9cadca;
+  color: white;
+}
+
+.manSearch:focus {
+  outline: none
+}
+
+/* spaces to make the scroll nicer */
+.spacey1 {
+  height: 5vw;
+}
+.spacey2 {
+  height: 1vw;
 }

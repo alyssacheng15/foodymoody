@@ -60,7 +60,6 @@
 }
 
 .moodButtons button:hover {
-
   box-shadow: #707b8d 0 -25px 18px -14px inset, #737880 0 1px 2px,#697995 0 2px 4px,#5d6676 0 4px 8px,#5c687d 0 8px 16px,#5e6a7f 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
   background-color: #9cadca;
@@ -80,6 +79,7 @@
     width: 70%;
     margin: auto;
     margin-top: 80px;
+    padding-bottom: 60px;
   }
 
   .SearchBarText {
@@ -287,18 +287,22 @@ p {
 
 .goWrapper {
   text-align: center;
-  background-color: #d1bdda;
   width: 100%;
-  padding-bottom: 70px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  background-color: #d1bdda;
 }
 
 .go {
   cursor: pointer;
   font-size: 20pt;
+
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
+
+  margin-bottom: 80px;
+
   position: relative;
   border: solid #777 2px;
   color: white;

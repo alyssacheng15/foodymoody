@@ -26,13 +26,20 @@ class App extends Component {
         <div className="logo"></div>
         <div className="drawing">
         </div>
+
         <div className="quizIntroduction">
+
+          <div className="scrollDownText">
+              <div className="scrollDown1">
+                <p>SCROLL DOWN</p>
+              </div>
+            </div>
           <div className="quizIntroductionText1">
-          <p>
-            Hungry?<br></br>
-            Want to support the grandma next door?<br></br>
-            Let's eat.
-          </p>
+            <p>
+              Hungry?<br></br>
+              Want to support the grandma next door?<br></br>
+              Let's eat.
+            </p>
           </div>
 
           <div className="quizIntroductionText2">

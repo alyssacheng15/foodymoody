@@ -349,7 +349,10 @@ class SearchBar extends React.Component {
                     <h4>We think you would like these restaurants!</h4>
                     <h5>Feel free to click on them to go to their Yelp page.</h5>
                     <h5>Click here if you would like to search for more restaurants manually!</h5>
-                    <button className="go" onClick={this.Search}><span>Go</span></button>
+                    
+                    <div className="goWrapper">
+                        <button className="go" onClick={this.Search}><span>Manual Search</span></button>
+                    </div>
                 </div>
                 </div>
             </div>

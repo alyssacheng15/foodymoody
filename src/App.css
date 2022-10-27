@@ -51,10 +51,9 @@ h1 {
 .quizIntroduction {
   text-align: center;
 
-  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   background-color: #d1bdda;
 }
 
@@ -94,4 +93,22 @@ h1 {
   background-image: url('banner.png');
   background-repeat: no-repeat;
   background-color: #848c9f;
+}
+
+/* scroll down text area */
+.scrollDownText {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+
+  flex: space-between;
+
+}
+.scrollDownText p {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-weight: 800;
+  font-size: 25px;
 }

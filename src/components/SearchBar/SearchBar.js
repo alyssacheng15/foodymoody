@@ -258,7 +258,9 @@ class SearchBar extends React.Component {
 
                 <div className="SearchBar" id="searchBar">
                     <div className="SearchBarText">
-                        <h4>Type below to search for restaurants manually</h4>
+                        <h4 className="SearchBarTextIntro">If you want to explore more restaurants outside of the moodboard suggestions,
+                            <br></br>
+                            Type below to search for restaurants manually</h4>
                         <p>
                             Search for restaurants depending on what you are craving! Type in a cuisine, or type of food!
                         </p>

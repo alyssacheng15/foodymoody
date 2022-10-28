@@ -91,6 +91,10 @@
     padding-top: 50px;
   }
   
+  .SearchBarTextIntro {
+    padding-top: 60px;
+  }
+
   .SearchBar-sort-options ul {
     display: flex;
     justify-content: center;

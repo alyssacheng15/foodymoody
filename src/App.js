@@ -30,10 +30,8 @@ class App extends Component {
         <div className="quizIntroduction">
 
           <div className="scrollDownText">
-              <div className="scrollDown1">
                 <p>SCROLL DOWN</p>
-              </div>
-            </div>
+          </div>
           <div className="quizIntroductionText1">
             <p>
               Hungry?<br></br>

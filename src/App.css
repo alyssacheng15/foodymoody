@@ -105,22 +105,22 @@ h1 {
   flex: space-between;
 }
 
-.scrollDown1 {
-  animation-delay: 5s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-  animation: animate 2s linear infinite;
-}
-
 .scrollDownText p {
   visibility: hidden;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  position: relative;
   margin: auto;
   color: black;
   font-weight: 800;
   font-size: 25px;
-
+  animation-delay: 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  animation: animate 3s infinite;
 }
+
 @keyframes animate{
   0%{
     opacity: 0;

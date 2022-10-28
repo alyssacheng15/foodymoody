@@ -350,7 +350,7 @@ class SearchBar extends React.Component {
                 </div>
 
                 <div id="restaurantsD" className="restaurantsDescription">
-                    <h4>We think you would like these restaurants!</h4>
+                    <h4 className="restaurantsDText1">We think you would like these restaurants!</h4>
                     <h5>Feel free to click on them to go to their Yelp page.</h5>
                     <h5>Click here if you would like to search for more restaurants manually!</h5>
 

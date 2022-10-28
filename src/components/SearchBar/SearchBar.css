@@ -243,6 +243,10 @@
     display: none;
   }
 
+  .restaurantsDText1 {
+    padding-top: 50px;
+  }
+
 /* blurbs */
 .Blurbs {
   border-radius: 20px;

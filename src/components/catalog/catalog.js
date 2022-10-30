@@ -1,6 +1,6 @@
 import React from 'react';
 import './BusinessList.css';
-import Business from '../Business/Business';
+import Business from '../restaurants/restaurants';
 
 class BusinessList extends React.Component {
     render() {

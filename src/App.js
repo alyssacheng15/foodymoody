@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar/SearchBar';
-import BusinessList from './components/BusinessList/BusinessList';
-import Yelp from '../src/util/Yelp';
+import BusinessList from './components/catalog/catalog';
+import Yelp from './util/api';
 
 
 class App extends Component {

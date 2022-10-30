@@ -91,6 +91,10 @@
     padding-top: 50px;
   }
   
+  .SearchBarTextIntro {
+    padding-top: 60px;
+  }
+
   .SearchBar-sort-options ul {
     display: flex;
     justify-content: center;
@@ -237,6 +241,10 @@
 
   #restaurantsD, #blurbs, #paragraphHappy, #paragraphSad, #paragraphStressed, #paragraphAngry, #paragraphCold, #paragraphTired, #paragraphHungover, #paragraphPregnant {
     display: none;
+  }
+
+  .restaurantsDText1 {
+    padding-top: 50px;
   }
 
 /* blurbs */

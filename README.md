@@ -9,8 +9,8 @@ Foody Moody, aka the SCV Restaurant Mood Finder, is a dynamic web application bu
 
 # Features
 ### Mood-Based Restaurant Discovery:
-Users can select their current mood from a predefined list (e.g., Happy, Tired, Adventurous) to receive restaurant recommendations that match their emotional state.
-### Cuisine Filtering:
+Users can select their current mood from a predefined list (e.g., Happy, Tired) to receive restaurant recommendations that match their emotional state.
+### Cuisine and Keyword Filtering:
 Users can further refine their search based on different cuisines, such as Italian, Chinese, or Mexican, ensuring they find the perfect dining experience.
 ### Interactive User Interface:
 A clean and intuitive design built with React provides a seamless and engaging user experience.

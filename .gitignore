@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Backend — never commit real credentials
+server/.env
+server/node_modules

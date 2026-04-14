@@ -1,136 +1,17 @@
-/* Universal Styles */
+/* Global overrides — component styles use Tailwind utility classes */
 
+/* Smooth scroll for the whole page */
 html {
-  font-size: 18px;
-  background-color: #f5eded;
+  scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 560px) {
-  html {
-    font-size: 15px;
-  }
+/* Prevent layout shift from scrollbar */
+html {
+  overflow-y: scroll;
 }
 
-input:focus {
-  outline: none;
-}
-
-/* Reusable Component - Image Container */
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  background: #000;
-}
-
-.image-container img {
-  width: 100%;
-}
-
-/* App Styles */
-
-.App {
-  font-family: 'Work Sans', sans-serif;
-}
-
-h1 {
-  padding: .66rem 0;
-  padding: 30px;
-  text-align: center;
-  background-color: #ABB9CF;
-  font-family: Poppins, sans-serif;
-  font-size: 1.8rem;
-  color: #f5eded;
-}
-
-/* deleted the food in santa clarita section to match the figma */
-
-/* Quiz Introduction Section with Text */
-.quizIntroduction {
-  text-align: center;
-
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 40px;
-  background-color: #d1bdda;
-}
-
-.quizIntroductionText1 p{
-  width: 50%;
-  margin: auto;
-  color: white;
-  font-weight: 400;
-  font-size: 30px;
-  padding: 20px;
-}
-.quizIntroductionText2 p{
-  width: 50%;
-  margin: auto;
-  color: white;
-  font-weight: 600;
-  font-size: 25px;
-  padding: 20px;
-}
-
-
-/* background */
-
-.drawing {
-  background-image: url('./backgroundPic.GIF');
-  background-size: cover;
-  height: 27vw;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-/* logo */
-
-.logo {
-  height: 5vw;
-  background-size: cover;
-  background-image: url('banner.png');
-  background-repeat: no-repeat;
-  background-color: #848c9f;
-}
-
-/* scroll down text area */
-.scrollDownText {
-  padding-top: 60px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 30px;
-
-  flex: space-between;
-}
-
-.scrollDownText p {
-  visibility: hidden;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  margin: auto;
-  color: black;
-  font-weight: 800;
-  font-size: 25px;
-  animation-delay: 5s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-  animation: animate 3s infinite;
-}
-
-@keyframes animate{
-  0%{
-    opacity: 0;
-  }
-  50%{
-    opacity: 0.7;
-    visibility: visible;
-  }
-  100%{
-    opacity: 0;
-    visibility: visible;
-  }
+/* Remove default button focus ring (Tailwind handles focus styles) */
+button:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
 }
